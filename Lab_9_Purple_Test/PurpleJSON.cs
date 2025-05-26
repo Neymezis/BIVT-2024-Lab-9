@@ -447,8 +447,7 @@ namespace Lab_9_Purple_Test
                 rep.MakeResearch();
                 for (int i = 0; i < rep.Researches.Length; i++)
                 {
-                    for (int j = 0; j < 5; j++)
-                        rep.Researches[i].Add(new string[] {
+                    rep.Researches[i].Add(new string[] {
                         _animals[_rand.Next(0, _animals.Length)],
                         _characterTrait[_rand.Next(0, _characterTrait.Length)],
                         _concept[_rand.Next(0, _concept.Length)] });
